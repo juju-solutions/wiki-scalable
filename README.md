@@ -1,4 +1,4 @@
-# A simple Mediawiki bundle
+# A scalable Mediawiki bundle
 
 This bundle deploys a Mediawiki, with MariaDB. Unlike the the wiki-simple bundle, this one is designed for scalability out of the box by using memcached for mediawiki and putting the entire thing behind an haproxy.
 
