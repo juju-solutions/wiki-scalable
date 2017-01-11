@@ -1,6 +1,6 @@
 services:
   loadbalancer:
-    charm: cs:trusty/haproxy-18
+    charm: cs:trusty/haproxy-19
     num_units: 1
     options:
       default_log: global
@@ -66,7 +66,7 @@ services:
       gui-x: "926"
       gui-y: "-125"
   mysql:
-    charm: cs:trusty/mariadb-2
+    charm: cs:trusty/mariadb-3
     num_units: 1
     options:
       binlog-format: MIXED
